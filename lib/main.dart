@@ -13,11 +13,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Medical App',
-      home: NavigationBar(),
-    );
+    return const MaterialApp(
+        debugShowCheckedModeBanner: false, title: 'Amazon Bar()');
   }
 }
 
